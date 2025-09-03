@@ -1,0 +1,120 @@
+body {
+    background-color: #fdf1fa;
+}
+
+header {
+    background-color: #f3c1da;
+    padding: 50px;
+}
+
+
+.container {
+    margin: 100px auto;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .row {
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.card {
+    height: 400px;
+}
+
+.card .card-img-top {
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.card .card-body {
+    height: 300px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fffdf8;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #fffdf8af;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="search"] {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b6648d;
+    color: #fffdf8;
+}
+
+.container.carousel {
+    width: 600px;
+    height: 600px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #b6648d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #b6648d;
+    border: none;
+}
+
+footer {
+    background-color: #f3c1da;
+    color: #fff;
+    padding: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #ffffff94;
+}
+
+li a:hover {
+    color: #ffffff;
+}
